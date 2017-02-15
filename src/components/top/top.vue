@@ -1,17 +1,20 @@
 <template>
   <div class="page has-navbar has-tabbar" v-nav="{title: '最具口碑'}" v-tabbar-menu-index="2">
     <div class="page-content">
-      <h1>this is top</h1>
+      <film-list></film-list>
     </div>
   </div>
 </template>
 
 <script>
+  import filmList from '../filmList/filmList'
   export default{
     data () {
       return {}
     },
-    components: {}
+    components: {
+      filmList
+    }
   }
 </script>
 

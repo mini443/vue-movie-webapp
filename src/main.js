@@ -2,7 +2,6 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import Vonic from 'vonic/src/index.js'
-// import App from './App'
 
 import './assets/stylus/index.styl'
 
@@ -13,8 +12,10 @@ import coming from './components/coming/coming.vue'
 import top from './components/top/top.vue'
 import mine from './components/mine/mine.vue'
 import filmDetail from './components/filmDetail/filmDetail.vue'
+import personDetail from './components/personDetail/personDetail.vue'
 import skin from './components/skin/skin.vue'
 import collection from './components/collection/collection.vue'
+import setting from './components/setting/setting.vue'
 
 import about from './components/about/about.vue'
 
@@ -31,8 +32,10 @@ const routes = [
     ]
   },
   { path: '/filmDetail', component: filmDetail },
+  { path: '/personDetail', component: personDetail },
   { path: '/skin', component: skin },
   { path: '/collection', component: collection },
+  { path: '/setting', component: setting },
   { path: '/about', component: about }
 ]
 

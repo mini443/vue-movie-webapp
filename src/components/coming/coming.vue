@@ -1,12 +1,13 @@
 <template>
   <div class="page has-navbar has-tabbar" v-nav="{title: '即将上映'}" v-tabbar-menu-index="1">
     <div class="page-content">
-      <h1>this is comimg</h1>
+      <film-list></film-list>
     </div>
   </div>
 </template>
 
 <script>
+  import filmList from '../filmList/filmList'
   export default{
     data () {
       return {}
@@ -20,7 +21,9 @@
     created () {
 
     },
-    components: {}
+    components: {
+      filmList
+    }
   }
 </script>
 

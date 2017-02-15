@@ -36,10 +36,10 @@
           <div class="cell-item-title">相册</div>
         </div>
 
-        <div class="cell-item" :style=" {height: cellItemHeight}">
+        <router-link to="/setting" class="cell-item" :style=" {height: cellItemHeight}">
           <i class="cell-item-icon icon ion-android-settings"></i>
           <div class="cell-item-title">设置</div>
-        </div>
+        </router-link>
 
       </div>
     </div>

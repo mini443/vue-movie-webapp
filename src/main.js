@@ -16,8 +16,8 @@ import personDetail from './components/personDetail/personDetail.vue'
 import skin from './components/skin/skin.vue'
 import collection from './components/collection/collection.vue'
 import setting from './components/setting/setting.vue'
-
-import about from './components/about/about.vue'
+import userInfo from './components/userInfo/userInfo.vue'
+import history from './components/history/history.vue'
 
 const routes = [
   {
@@ -36,7 +36,8 @@ const routes = [
   { path: '/skin', component: skin },
   { path: '/collection', component: collection },
   { path: '/setting', component: setting },
-  { path: '/about', component: about }
+  { path: '/userInfo', component: userInfo },
+  { path: '/history', component: history }
 ]
 
 /* eslint-disable no-new */

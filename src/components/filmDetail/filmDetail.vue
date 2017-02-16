@@ -167,9 +167,13 @@
       color: #666
     .fd-bd-person
       width: 100%
-      height: 200px
-      overflow: scroll
+      overflow-x: scroll
+      overflow-y: hidden
       .fd-bd-person-wrapper
+        font-size: 0
         width: 1200px
-        height: 200px
+        &>img
+          margin-left: 10px
+          &:first-child
+            margin: 0
 </style>

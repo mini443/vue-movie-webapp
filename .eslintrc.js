@@ -18,6 +18,10 @@ module.exports = {
   "globals": {
     "$tabbar": true,
     "$router": true,
+    "$actionSheet": true,
+    "$toast": true,
+    "$loading": true,
+    "$dialog": true
   },
   // add your custom rules here
   'rules': {

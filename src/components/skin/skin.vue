@@ -47,6 +47,7 @@
       margin-top: 10px
       border-radius: 10px
       overflow: hidden
+      border: 3px solid transparent
       .skin-img
         width: 100%
         height: 100%

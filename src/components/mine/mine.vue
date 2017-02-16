@@ -21,10 +21,10 @@
           <div class="cell-item-title">收藏</div>
         </router-link>
 
-        <div class="cell-item" :style=" {height: cellItemHeight}">
+        <router-link to="/history" class="cell-item" :style=" {height: cellItemHeight}">
           <i class="cell-item-icon icon ion-android-list"></i>
           <div class="cell-item-title">浏览记录</div>
-        </div>
+        </router-link>
 
         <div class="cell-item" :style=" {height: cellItemHeight}">
           <i class="cell-item-icon icon ion-android-phone-portrait"></i>
@@ -121,7 +121,7 @@
         width: 100%
         height: 1px
         background-color: #ccc
-        transform: scaleY(0.5)
+        transform: scaleY(0.4)
       &:after
         content: ''
         pointer-events: none
@@ -131,7 +131,7 @@
         width: 1px
         height: 100%
         background-color: #ccc
-        transform: scaleX(0.5)
+        transform: scaleX(0.4)
     for idx in 3 6 9
       .cell-item:nth-child({idx})
         &:after
